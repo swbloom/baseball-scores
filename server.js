@@ -92,7 +92,9 @@ router.get('/scrape', function(req,res){
 
 var port = process.env.PORT || 8080;
 // utils.request();
-
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
 console.log(`Listening on ${port}`);
 
 experts = module.exports = app;
