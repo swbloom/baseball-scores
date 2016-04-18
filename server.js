@@ -39,7 +39,9 @@ router.route('/scores')
       content.map((game, i) => {
         const homeName = game.homeTeam.name;
         const awayName = game.awayTeam.name;
-        const title = `${homeName} vs ${awayName}`;
+        const homeScore = game.homeTeam.score;
+        const awayScore = game.awayTeam.score;
+        const title = `${homeName} (${homeScore}) vs ${awayName} (${awayScore})`;
 
         attachments.push({
           "fallbacks": title,
@@ -50,7 +52,7 @@ router.route('/scores')
       });
       console.log(attachments);
       res.json({
-        "text": "success!",
+        "text": "Scores",
         "attachments": attachments
       });
     });
