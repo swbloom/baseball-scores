@@ -30,6 +30,14 @@ router.get('/', function(req, res){
 // all of our routes will be prefixed with /api
 app.use('/', router);
 
+router.route('/scores')
+  .post(function(req,res) {
+    var scores = fs.readFile('scores.json', 'utf-8', (err, data) => {
+      var content = JSON.parse(data);
+      res.json({content});
+    });
+  }
+);
 
 router.get('/scrape', function(req,res){
   app.bs = {}; // box scores
