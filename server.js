@@ -34,7 +34,7 @@ router.route('/scores')
   .post(function(req,res) {
     var scores = fs.readFile('scores.json', 'utf-8', (err, data) => {
       var content = JSON.parse(data);
-      res.json({"text": content});
+      res.json({"text": "success!"});
     });
   }
 );
