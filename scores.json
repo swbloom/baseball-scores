@@ -1,0 +1,82 @@
+[
+    {
+        "homeTeam": {
+            "name": "Boston",
+            "score": "1"
+        },
+        "awayTeam": {
+            "name": "Toronto",
+            "score": "4"
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "Philadelphia",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "New York",
+            "score": ""
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "Chicago",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "Los Angeles",
+            "score": ""
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "Miami",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "Washington",
+            "score": ""
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "Minnesota",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "Milwaukee",
+            "score": ""
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "Cincinnati",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "Colorado",
+            "score": ""
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "St. Louis",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "Chicago",
+            "score": ""
+        }
+    },
+    {
+        "homeTeam": {
+            "name": "San Francisco",
+            "score": ""
+        },
+        "awayTeam": {
+            "name": "Arizona",
+            "score": ""
+        }
+    }
+]
