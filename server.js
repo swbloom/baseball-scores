@@ -90,10 +90,9 @@ router.get('/scrape', function(req,res){
       });
   });
 
-app.listen('8081');
-
+var port = process.env.PORT || 8080;
 // utils.request();
 
-console.log('Listening on 8081');
+console.log(`Listening on ${port}`);
 
 experts = module.exports = app;
