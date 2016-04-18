@@ -28,7 +28,7 @@ router.get('/', function(req, res){
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
-app.use('/api', router);
+app.use('/', router);
 
 
 router.get('/scrape', function(req,res){
