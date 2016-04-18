@@ -36,13 +36,19 @@ router.route('/scores')
       var content = JSON.parse(data);
       var attachments = [];
 
-      data.map((game, i) => {
+      content.map((game, i) => {
+        const homeName = game.homeTeam.name;
+        const awayName = game.awayTeam.name;
+        const title = `${homeName} vs ${awayName}`;
+
         attachments.push({
-          "fallback": `${game.awayTeam.name} at ${game.homeTeam.name}`
-          "color": "#36a64f",
-          "title": `${game.awayTeam.name} at ${game.homeTeam.name}`
+          "fallbacks": title,
+          "pretext": title,
+          "title": title
         });
+
       });
+      console.log(attachments);
       res.json({
         "text": "success!",
         "attachments": attachments
