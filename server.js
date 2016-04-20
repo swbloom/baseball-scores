@@ -102,7 +102,7 @@ router.get('/scrape', function(req,res){
         var homeTeamScore = $(game.homeTeam.score).text().toString();
         var awayTeamsLogo = game.awayTeam.logo;
         var homeTeamsLogo = game.homeTeam.logo;
-        var gameStatus = game.gameStatus.text();
+        var gameStatus = $(game.gameStatus).text().toString();
 
         var game = {
           gameStatus: gameStatus,
