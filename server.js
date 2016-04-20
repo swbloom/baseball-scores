@@ -41,7 +41,7 @@ router.route('/scores')
         const awayName = game.awayTeam.name;
         const homeScore = game.homeTeam.score;
         const awayScore = game.awayTeam.score;
-        const gameStatus = game.gameStauts;
+        const gameStatus = game.gameStatus;
         const title = `${homeName} (${homeScore}) vs ${awayName} (${awayScore}) -- ${gameStatus}`;
         const imgUrl = game.homeTeam.logo;
 
