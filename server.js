@@ -42,15 +42,15 @@ router.route('/scores')
         const homeScore = game.homeTeam.score;
         const awayScore = game.awayTeam.score;
         const title = `${homeName} (${homeScore}) vs ${awayName} (${awayScore})`;
+        const imgUrl = game.homeTeam.logo;
 
         attachments.push({
-          "fallbacks": title,
-          "pretext": title,
-          "title": title
+          "title": title,
+          "image_url": imgUrl
         });
-
+        console.log(attachments);
+ 
       });
-      console.log(attachments);
       res.json({
         "text": "Scores",
         "attachments": attachments
@@ -72,44 +72,48 @@ router.get('/scrape', function(req,res){
 
       var homeTeams = $boxScore.find('.homeTeam .teamName').toArray();
       var awayTeams = $boxScore.find('.awayTeam .teamName').toArray();
+      var awayTeamsLogos = $boxScore.find('.awayTeam img').toArray().map(function(image) { return ($(image).attr('delaysrc')) });;
+      var homeTeamsLogos = $boxScore.find('.homeTeam img').toArray().map(function(image) { return ($(image).attr('delaysrc')) });
       var homeTeamsScores = $boxScore.find('.homeTeam .runsScore').toArray();
-      var awayTeamsScores = $boxScore.find('.awayTeam .runsScore').toArray(); 
- 
-      app.bs = homeTeams.map(function(result, i) {
+      var awayTeamsScores = $boxScore.find('.awayTeam .runsScore').toArray();  
+      app.bs = $(homeTeams).map(function(i, result) {
         return {
           homeTeam: {
                         name: result,
-                        score: homeTeamsScores[i]
+                        score: homeTeamsScores[i],
+                        logo: homeTeamsLogos[i]
                     },
           awayTeam: {
                         name: awayTeams[i],
-                        score: awayTeamsScores[i]
+                        score: awayTeamsScores[i],
+                        logo: awayTeamsLogos[i]
                     }
         }
       });
-    
-      app.bs.map(function(game, i){
+      $(app.bs).each(function(i, game){
         var pattern = /\(.*?\)/g;
         var awayTeamName = $(game.awayTeam.name).text().replace(pattern, "").trim().toString();
         var awayTeamScore = $(game.awayTeam.score).text().toString();
         var homeTeamName = $(game.homeTeam.name).text().replace(pattern, "").trim().toString();
         var homeTeamScore = $(game.homeTeam.score).text().toString();
+        var awayTeamsLogo = game.awayTeam.logo;
+        var homeTeamsLogo = game.homeTeam.logo;
 
         var game = {
           homeTeam: {
             name: homeTeamName,
-            score: homeTeamScore
+            score: homeTeamScore,
+            logo: homeTeamsLogo
           },
           awayTeam: {
             name: awayTeamName,
-            score: awayTeamScore
+            score: awayTeamScore,
+            logo: awayTeamsLogo
           }
         }
         app.games.push(game);
       });
         // console.log(`${awayTeamName} (${awayTeamScore}) vs ${homeTeamName} (${homeTeamScore})`);  
-        // console.log(app.bs[0].homeTeam.name);
-        console.log(app.games);
         fs.writeFile('scores.json', JSON.stringify(app.games, null, 4), function(err){
 
             console.log('File successfully written! - Check your project directory for the output.json file');
@@ -119,7 +123,7 @@ router.get('/scrape', function(req,res){
   });
 
 var port = process.env.PORT || 8080;
-// utils.request();
+utils.request();
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });

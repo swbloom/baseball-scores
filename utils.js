@@ -2,7 +2,7 @@ http = require('http');
 
 const config = {
   url: 'localhost',
-  port: 8081,
+  port: 8080,
   path: '/scrape',
   method: 'GET'
 };
