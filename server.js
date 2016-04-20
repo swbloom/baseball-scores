@@ -41,12 +41,14 @@ router.route('/scores')
         const awayName = game.awayTeam.name;
         const homeScore = game.homeTeam.score;
         const awayScore = game.awayTeam.score;
-        const title = `${homeName} (${homeScore}) vs ${awayName} (${awayScore})`;
+        const gameStatus = game.gameStauts;
+        const title = `${homeName} (${homeScore}) vs ${awayName} (${awayScore}) -- ${gameStatus}`;
         const imgUrl = game.homeTeam.logo;
 
         attachments.push({
           "title": title,
-          "image_url": imgUrl
+          "image_url": imgUrl,
+          "color": "#F35A00"
         });
         console.log(attachments);
  
@@ -76,8 +78,10 @@ router.get('/scrape', function(req,res){
       var homeTeamsLogos = $boxScore.find('.homeTeam img').toArray().map(function(image) { return ($(image).attr('delaysrc')) });
       var homeTeamsScores = $boxScore.find('.homeTeam .runsScore').toArray();
       var awayTeamsScores = $boxScore.find('.awayTeam .runsScore').toArray();  
+      var gameStatus = $boxScore.find('.gameStatus').toArray().map(function(status) { return $(status).text() })
       app.bs = $(homeTeams).map(function(i, result) {
         return {
+          gameStatus: gameStatus,
           homeTeam: {
                         name: result,
                         score: homeTeamsScores[i],
@@ -98,8 +102,10 @@ router.get('/scrape', function(req,res){
         var homeTeamScore = $(game.homeTeam.score).text().toString();
         var awayTeamsLogo = game.awayTeam.logo;
         var homeTeamsLogo = game.homeTeam.logo;
+        var gameStatus = game.gameStatus.text();
 
         var game = {
+          gameStatus: gameStatus,
           homeTeam: {
             name: homeTeamName,
             score: homeTeamScore,
