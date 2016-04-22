@@ -1,197 +1,171 @@
 [
     {
-        "gameStatus": "Bottom 5th",
-        "homeTeam": {
-            "name": "Minnesota",
-            "score": "5",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/MIN.png"
+        "status": "F/10",
+        "home": {
+            "name": "Seattle Mariners",
+            "score": "10",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/seattle-mariners.png"
         },
-        "awayTeam": {
-            "name": "Milwaukee",
-            "score": "6",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/MIL.png"
+        "away": {
+            "name": "Cleveland Indians",
+            "score": "7",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/cleveland-indians.png"
         }
     },
     {
-        "gameStatus": "Top 6th",
-        "homeTeam": {
-            "name": "San Diego",
+        "status": "F/10",
+        "home": {
+            "name": "Los Angeles Dodgers",
             "score": "2",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/SD.png"
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/los-angeles-dodgers.png"
         },
-        "awayTeam": {
-            "name": "Pittsburgh",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/PIT.png"
-        }
-    },
-    {
-        "gameStatus": "\n                   Top Stories\n                ",
-        "homeTeam": {
-            "name": "Cleveland",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CLE.png"
-        },
-        "awayTeam": {
-            "name": "Seattle",
-            "score": "2",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/SEA.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "San Francisco",
-            "score": "0",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/SF.png"
-        },
-        "awayTeam": {
-            "name": "Arizona",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/ARI.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Baltimore",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/BAL.png"
-        },
-        "awayTeam": {
-            "name": "Toronto",
-            "score": "4",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/TOR.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "New York",
-            "score": "2",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/NYY.png"
-        },
-        "awayTeam": {
-            "name": "Oakland",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/OAK.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Philadelphia",
+        "away": {
+            "name": "Atlanta Braves",
             "score": "1",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/PHI.png"
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/atlanta-braves.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Washington Nationals",
+            "score": "1",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/washington-nationals.png"
         },
-        "awayTeam": {
-            "name": "New York",
+        "away": {
+            "name": "Miami Marlins",
+            "score": "5",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/miami-marlins.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Tampa Bay Rays",
+            "score": "12",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/tampa-bay-rays.png"
+        },
+        "away": {
+            "name": "Boston Red Sox",
+            "score": "8",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/boston-red-sox.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Minnesota Twins",
+            "score": "8",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/minnesota-twins.png"
+        },
+        "away": {
+            "name": "Milwaukee Brewers",
+            "score": "1",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/milwaukee-brewers.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Los Angeles Angels",
+            "score": "3",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/los-angeles-angels.png"
+        },
+        "away": {
+            "name": "Chicago White Sox",
+            "score": "2",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/chicago-white-sox.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Arizona Diamondbacks",
+            "score": "6",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/arizona-diamondbacks.png"
+        },
+        "away": {
+            "name": "San Francisco Giants",
+            "score": "2",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/san-francisco-giants.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Toronto Blue Jays",
+            "score": "2",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/toronto-blue-jays.png"
+        },
+        "away": {
+            "name": "Baltimore Orioles",
+            "score": "3",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/baltimore-orioles.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Oakland Athletics",
+            "score": "7",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/oakland-athletics.png"
+        },
+        "away": {
+            "name": "New York Yankees",
+            "score": "3",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/new-york-yankees.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Chicago Cubs",
+            "score": "16",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/chicago-cubs.png"
+        },
+        "away": {
+            "name": "Cincinnati Reds",
+            "score": "0",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/cincinnati-reds.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Detroit Tigers",
+            "score": "0",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/detroit-tigers.png"
+        },
+        "away": {
+            "name": "Kansas City Royals",
+            "score": "4",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/kansas-city-royals.png"
+        }
+    },
+    {
+        "status": "FINAL",
+        "home": {
+            "name": "Houston Astros",
+            "score": "4",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/houston-astros.png"
+        },
+        "away": {
+            "name": "Texas Rangers",
+            "score": "7",
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/texas-rangers.png"
+        }
+    },
+    {
+        "status": "Bottom 9th",
+        "home": {
+            "name": "Pittsburgh Pirates",
             "score": "11",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/NYM.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Boston",
-            "score": "0",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/BOS.png"
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/pittsburgh-pirates.png"
         },
-        "awayTeam": {
-            "name": "Tampa Bay",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/TB.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Atlanta",
-            "score": "8",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/ATL.png"
-        },
-        "awayTeam": {
-            "name": "Los Angeles",
+        "away": {
+            "name": "San Diego Padres",
             "score": "1",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/LAD.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Kansas City",
-            "score": "8",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/KC.png"
-        },
-        "awayTeam": {
-            "name": "Detroit",
-            "score": "6",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/DET.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Miami",
-            "score": "0",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/MIA.png"
-        },
-        "awayTeam": {
-            "name": "Washington",
-            "score": "7",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/WAS.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Texas",
-            "score": "7",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/TEX.png"
-        },
-        "awayTeam": {
-            "name": "Houston",
-            "score": "5",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/HOU.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Cincinnati",
-            "score": "4",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CIN.png"
-        },
-        "awayTeam": {
-            "name": "Colorado",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/COL.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "Chicago",
-            "score": "5",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CHW.png"
-        },
-        "awayTeam": {
-            "name": "Los Angeles",
-            "score": "0",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/LAA.png"
-        }
-    },
-    {
-        "gameStatus": "",
-        "homeTeam": {
-            "name": "St. Louis",
-            "score": "1",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/STL.png"
-        },
-        "awayTeam": {
-            "name": "Chicago",
-            "score": "2",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CHC.png"
+            "logo": "http://www.sportsnet.ca/wp-content/themes/sportsnet-nhl/images/team_logos/200x200/baseball/mlb/san-diego-padres.png"
         }
     }
 ]
