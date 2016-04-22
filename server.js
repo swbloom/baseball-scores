@@ -90,7 +90,7 @@ router.route('/scores')
     })
   });
 
-utils.request();
+// utils.request();
 
 var port = process.env.PORT || 8080;    
 app.listen(port, function() {   
