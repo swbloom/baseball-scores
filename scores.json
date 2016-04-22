@@ -1,29 +1,6 @@
 [
     {
-        "homeTeam": {
-            "name": "Texas",
-            "score": "7",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/TEX.png"
-        },
-        "awayTeam": {
-            "name": "Houston",
-            "score": "4",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/HOU.png"
-        }
-    },
-    {
-        "homeTeam": {
-            "name": "St. Louis",
-            "score": "1",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/STL.png"
-        },
-        "awayTeam": {
-            "name": "Chicago",
-            "score": "2",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CHC.png"
-        }
-    },
-    {
+        "gameStatus": "Bottom 5th",
         "homeTeam": {
             "name": "Minnesota",
             "score": "5",
@@ -36,18 +13,20 @@
         }
     },
     {
+        "gameStatus": "Top 6th",
         "homeTeam": {
             "name": "San Diego",
-            "score": "0",
+            "score": "2",
             "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/SD.png"
         },
         "awayTeam": {
             "name": "Pittsburgh",
-            "score": "2",
+            "score": "3",
             "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/PIT.png"
         }
     },
     {
+        "gameStatus": "\n                   Top Stories\n                ",
         "homeTeam": {
             "name": "Cleveland",
             "score": "3",
@@ -60,6 +39,20 @@
         }
     },
     {
+        "gameStatus": "",
+        "homeTeam": {
+            "name": "San Francisco",
+            "score": "0",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/SF.png"
+        },
+        "awayTeam": {
+            "name": "Arizona",
+            "score": "3",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/ARI.png"
+        }
+    },
+    {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Baltimore",
             "score": "3",
@@ -72,18 +65,7 @@
         }
     },
     {
-        "homeTeam": {
-            "name": "San Francisco",
-            "score": "0",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/SF.png"
-        },
-        "awayTeam": {
-            "name": "Arizona",
-            "score": "0",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/ARI.png"
-        }
-    },
-    {
+        "gameStatus": "",
         "homeTeam": {
             "name": "New York",
             "score": "2",
@@ -96,6 +78,7 @@
         }
     },
     {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Philadelphia",
             "score": "1",
@@ -108,6 +91,7 @@
         }
     },
     {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Boston",
             "score": "0",
@@ -120,6 +104,7 @@
         }
     },
     {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Atlanta",
             "score": "8",
@@ -132,6 +117,7 @@
         }
     },
     {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Kansas City",
             "score": "8",
@@ -144,6 +130,7 @@
         }
     },
     {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Miami",
             "score": "0",
@@ -156,6 +143,33 @@
         }
     },
     {
+        "gameStatus": "",
+        "homeTeam": {
+            "name": "Texas",
+            "score": "7",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/TEX.png"
+        },
+        "awayTeam": {
+            "name": "Houston",
+            "score": "5",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/HOU.png"
+        }
+    },
+    {
+        "gameStatus": "",
+        "homeTeam": {
+            "name": "Cincinnati",
+            "score": "4",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CIN.png"
+        },
+        "awayTeam": {
+            "name": "Colorado",
+            "score": "3",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/COL.png"
+        }
+    },
+    {
+        "gameStatus": "",
         "homeTeam": {
             "name": "Chicago",
             "score": "5",
@@ -168,15 +182,16 @@
         }
     },
     {
+        "gameStatus": "",
         "homeTeam": {
-            "name": "Cincinnati",
-            "score": "4",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CIN.png"
+            "name": "St. Louis",
+            "score": "1",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/STL.png"
         },
         "awayTeam": {
-            "name": "Colorado",
-            "score": "3",
-            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/COL.png"
+            "name": "Chicago",
+            "score": "2",
+            "logo": "http://sports.cbsimg.net/images/mlb/logos/40x40/CHC.png"
         }
     }
 ]
