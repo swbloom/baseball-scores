@@ -90,9 +90,11 @@ router.route('/scores')
     })
   });
 
-app.listen('8081');
 utils.request();
 
-console.log('Magic happens on 8081');
+var port = process.env.PORT || 8080;    
+app.listen(port, function() {   
+  console.log('Our app is running on port: ' + port);   
+});
 
 exports = module.exports = app;
